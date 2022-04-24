@@ -11,8 +11,8 @@ def alpha_math(alpha_with_rank):
     for i in range(len(ranks)):
         freq.append(len(ranks[i]))
 
-    if len(freq) != set(freq):
-
+    # if len(freq) != set(freq):
+        
 
     for i in range(len(sorted_alpha_rank)):
         alphas.append(sorted_alpha_rank[i][0])
