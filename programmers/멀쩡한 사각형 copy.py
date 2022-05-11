@@ -1,3 +1,4 @@
+# GCD로 다시 풀기
 import math
 
 
