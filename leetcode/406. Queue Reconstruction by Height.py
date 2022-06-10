@@ -1,5 +1,5 @@
 def reconstructQueue(people):
-    people.sort(key=lambda x: (-x[0], x[1])) # 이거 쩐다!!
+    people.sort(key=lambda x: (-x[0], x[1])) # lambda 식으로 두 기준 정렬 기억하기
     queue = []
     for p in people:
         queue.insert(p[1], p) # 이 부분이 핵심
