@@ -13,7 +13,7 @@ def solution(info, query):
         for i in info:
             if int(i[-1]) < int(q[-1]):
                 flag = False
-                break
+                # break
             else:
                 for idx in range(4): # 지원자
                     if q[idx] == '-':
