@@ -1,3 +1,3 @@
-    stack.append(b[m-1])
-                    board[i][m-1] = 0
-                    break
+1 and min(prices[i+1:]) >= prices[i]:
+        #     answer[i] -= 1
+        #     continue
